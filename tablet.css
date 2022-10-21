@@ -1,0 +1,244 @@
+
+
+.navbar {
+    position: relative;
+    right: 200px;
+    
+
+    
+    
+}
+
+#main-section {
+    min-width: 768px;
+    
+    margin-bottom: 100px;
+}
+
+#main-section .morado {
+    position: absolute;
+    width: 120px;
+    left: -20px;
+    top: -10px;
+    height: 120px;
+    border: 6px solid rgb(158, 237, 229);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    -webkit-box-shadow: -6px -5px 10px 10px #9EEDE5; 
+box-shadow: -10px -10px 10px 0px #546eef;
+}
+
+#main-section .rojo {
+    position: absolute;
+    bottom: -30px;
+    left: 180px;
+    width: 120px;
+
+    height: 120px;
+    border: 6px solid rgb(216, 148, 239);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 8px;
+    
+    -webkit-box-shadow: 6px 8px 12px 4px #8A5F99; 
+box-shadow:  9px 8px 6px 0px #546eef;
+    
+}
+
+#centrar-nombre {
+    position: absolute;
+    right: 250px;
+    left: 750px;
+    
+    bottom: 400px; 
+}
+ 
+#main-section #title-main{
+    position: absolute;
+    right: 20px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    min-width: 320px;
+    
+}
+
+#main-section #title-main #name {
+
+    position: absolute;
+    left: -30px;
+    font-size: 55px;
+    
+    
+
+}
+
+#main-section #title-main h1 {
+    width: 100%;
+    height: 100%;
+}
+
+#main-section #title-main #eslogan {
+    position: absolute;
+    top: 150px;
+    margin: 0px;
+    min-width: 300px;
+    max-width: 1500px;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 0 0 10px #6704a9;
+   
+    
+}
+
+#imagen  {
+
+    position: relative;
+    top: 70px;
+    right: 200px;
+    width: 300px;
+     height: 300px;
+     margin: 0 auto;
+     margin-bottom: 50px;
+     background-image: url('./imgs/alayon-logo.jpg');
+     border-radius: 50%;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    
+  }
+
+#boton-comprar {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 60px;
+    top: 350px;
+}
+
+#comprar button {
+    position: absolute;
+    bottom: -10px;
+    left: -20px;
+}
+
+#comprar ul {
+
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    
+
+}
+
+#products {
+  margin-top: 300px;
+  background-color: rgba(0, 0, 0, 0.314);
+}
+
+.plans-container--slider {
+    justify-content: center;
+    overflow: hidden;
+    scroll-snap-type: none;
+    margin: auto;
+    
+}
+
+#carta:hover {
+    transform: scale(0.9);
+    
+    }
+
+
+
+  
+
+  #products #carta {
+    margin-bottom: 0px; 
+  }
+    
+    #carta {
+    
+        display: flex;
+        flex-wrap: wrap;
+        width: 250px;
+        margin-left: 50px;
+        height: 300px;
+        
+        margin-right: 0px;
+    }
+    
+    #centrar {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .plans-container--slider .tibia {
+        padding-right: 0px;
+    }
+    
+    #input-area {
+        
+        align-items: center;
+      
+        width: auto;
+        margin-bottom: 10px;
+        display: inline-block;
+        position: relative;
+        left: 150px;
+    }
+    
+    #email {
+        margin-top: 250px;
+        
+    }
+
+    #centrar-our {
+        position: absolute;
+        bottom: 130px;
+        left: 300px;
+    }
+
+    #email #input-title {
+        
+        
+    }
+
+    #email .input-group {
+        position: absolute;
+        left: 300px;
+    }
+    
+    
+    #email #input-area #displaynone {
+        margin-top: 35px;
+        position: relative;
+        
+       
+     
+        width: auto;
+    
+    }
+    
+    #email #input-area #displaynone .form-controll {
+        display: flex;
+        flex: auto;
+        min-width: 235px;
+
+        max-width: 3000px;
+    }
+    
+    #beneficios #padin-beneficios {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    
+    #lista svg {
+        font-size: 50px;
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+    }
